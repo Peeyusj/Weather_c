@@ -1,0 +1,66 @@
+.body {
+  margin: 0;
+}
+.home {
+  background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("./pauline-heidmets-GTL39WM6QqA-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-around;
+  background-color: #00000038;
+}
+.links a {
+  text-decoration: none;
+
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.links a:hover {
+  color: black;
+  text-decoration: overline;
+  cursor: pointer;
+}
+.searchCity,.location{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.searchCity input{
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border-radius: 12px;
+}
+.searchCity button{
+    background-color: aquamarine;
+    padding: 8px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
+.weatherinfo{
+    background-color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.7;
+    
+
+    /* position: relative;
+    left: 514px; */
+       
+
+}
+.weatherinfo h1{
+    font-size: 64px;
+    padding: 60px 0px ;
+    
+}
+
